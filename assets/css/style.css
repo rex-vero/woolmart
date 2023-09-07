@@ -1,5 +1,6 @@
 .head {
   background-color: #f5f6f8;
+  font-family: "wolmart";
 }
 .head .font-head {
   font-size: 11px;
@@ -14,8 +15,7 @@
 .head .down .txt {
   box-shadow: 0 0 1px black;
   display: none;
-  top: 20px;
-  padding: 0 1px;
+  top: 0px;
   position: absolute;
   width: auto;
   height: auto;
@@ -41,6 +41,41 @@
 }
 .link:hover {
   color: #2266cc;
+}
+
+.logo {
+  height: 2.9rem;
+}
+
+.input {
+  border: none;
+  outline: none;
+}
+
+.font {
+  font-size: 11px;
+}
+
+::placeholder {
+  font-size: 11px;
+}
+
+.link-2 {
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+}
+.link-2:hover {
+  color: #2266cc;
+}
+
+.position {
+  right: 25px;
+  top: 7px;
+}
+
+.icon {
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

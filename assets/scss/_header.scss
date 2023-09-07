@@ -1,26 +1,25 @@
+
+
 .head {
     background-color: $rang;
+    font-family: "wolmart";
     .font-head {
+      
         font-size: 11px;
         margin: 0;
     }
 
     .down {
         position: relative;
-
-      
-
         &:hover .txt {
             display: block;
         }
-
         .txt {
             box-shadow: 0 0 1px black;
             display: none;
-            
-            top: 20px;
-            
-            padding: 0 1px;
+            top: 0px;
+           
+          
             position: absolute;
             width: auto;
             height: auto;
@@ -46,10 +45,30 @@
 .link {
        
     font-size: 11px;
-    color: black;
-    text-decoration: none;
-
-    &:hover {
-        color: $link;
-    }
+    @include link();
 }
+.logo{
+    height: 2.9rem;
+}
+.input{
+    border: none;
+    outline: none;
+}
+.font {
+    font-size: 11px;
+}
+::placeholder{
+    font-size: 11px;  
+}
+.link-2{
+    font-size: 13px;
+    @include link();
+}
+.position{
+    right: 25px;
+    top: 7px;
+}
+.icon{
+    font-size: 30px;
+}
+ 
