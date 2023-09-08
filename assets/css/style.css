@@ -1,3 +1,22 @@
+.txt-2 {
+  box-shadow: 0 0 1px black;
+  display: none;
+  top: 15px;
+  right: 10px;
+  position: absolute;
+  height: auto;
+  width: 800px;
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+.down-2 {
+  position: relative;
+}
+.down-2:hover .txt-2 {
+  display: flex;
+}
+
 .head {
   background-color: #f5f6f8;
   font-family: "wolmart";
@@ -15,22 +34,23 @@
 .head .down .txt {
   box-shadow: 0 0 1px black;
   display: none;
-  top: 0px;
+  top: 15px;
   position: absolute;
   width: auto;
   height: auto;
   z-index: 1;
   background-color: #ffffff;
 }
-.head .down .txt .link-down {
+.head .down .link-down {
   font-size: 11px;
   color: black;
   text-decoration: none;
 }
-.head .down .txt .link-down:hover {
+.head .down .link-down:hover {
   color: #2266cc;
 }
-.head .flag {
+
+.flag {
   height: 0.5rem;
 }
 
