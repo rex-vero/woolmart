@@ -1,6 +1,19 @@
 @mixin link{
     color: black;
-    text-decoration: none;
+    &:hover {
+        color: $link;
+    }
+}
+@mixin dropdown{
+    box-shadow: 0 0 1px black;
+    display: none;
+    top: 15px;
+    position: absolute;
+    z-index: 1;
+    background-color: #ffffff;
+}
+@mixin link-3{
+    color: rgb(255, 255, 255);
 
     &:hover {
         color: $link;

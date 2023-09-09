@@ -1,13 +1,17 @@
-.txt-2 {
-  box-shadow: 0 0 1px black;
-  display: none;
-  top: 15px;
-  right: 10px;
-  position: absolute;
-  height: auto;
-  width: 800px;
-  z-index: 1;
-  background-color: #ffffff;
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888888;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
 }
 
 .down-2 {
@@ -16,6 +20,15 @@
 .down-2:hover .txt-2 {
   display: flex;
 }
+.down-2 .txt-2 {
+  box-shadow: 0 0 1px black;
+  display: none;
+  top: 15px;
+  position: absolute;
+  z-index: 1;
+  background-color: #ffffff;
+  width: 800px;
+}
 
 .head {
   background-color: #f5f6f8;
@@ -23,7 +36,7 @@
 }
 .head .font-head {
   font-size: 11px;
-  margin: 0;
+  margin: -3px;
 }
 .head .down {
   position: relative;
@@ -36,8 +49,6 @@
   display: none;
   top: 15px;
   position: absolute;
-  width: auto;
-  height: auto;
   z-index: 1;
   background-color: #ffffff;
 }
@@ -57,7 +68,6 @@
 .link {
   font-size: 11px;
   color: black;
-  text-decoration: none;
 }
 .link:hover {
   color: #2266cc;
@@ -83,9 +93,16 @@
 .link-2 {
   font-size: 13px;
   color: black;
-  text-decoration: none;
 }
 .link-2:hover {
+  color: #2266cc;
+}
+
+.link-3 {
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+}
+.link-3:hover {
   color: #2266cc;
 }
 
@@ -98,4 +115,15 @@
   font-size: 30px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.icon-2 {
+  font-size: 30px;
+}
+.icon-2:hover {
+  transform: translateY(-5px);
+}
+
+.bg-icon {
+  background-color: #333;
+}
+
+/*# sourceMappingURL=h-header.css.map */
