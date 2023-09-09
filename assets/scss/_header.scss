@@ -63,8 +63,11 @@
 }
 
 .input {
-    border: none;
-    outline: none;
+   @include input();
+}
+.input-2{
+    @include input();
+    width: 75vw; 
 }
 
 .font {
@@ -74,7 +77,10 @@
 ::placeholder {
     font-size: $font;
 }
-
+.link-4{
+    @include link();
+    font-size: 25px;
+}
 .link-2 {
     font-size: 13px;
     @include link();
@@ -100,4 +106,35 @@
 }
 .bg-icon{
     background-color: #333;
+}
+.fs-normal{
+    font-size:15px;
+}
+.bi-facebook{
+    &:hover{
+        color: blue;
+    }
+}
+.bi-twitter{
+    &:hover{
+        color: aqua;  
+    }
+}
+.bi-instagram{
+    &:hover{
+        color: purple;  
+    }
+}
+.bi-youtube{
+    &:hover{
+        color: red;
+    }
+}
+.bi-pinterest{
+    &:hover{
+        color: orange;
+    }
+}
+.pay{
+    height: 1.4rem;
 }

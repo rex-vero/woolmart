@@ -82,12 +82,26 @@
   outline: none;
 }
 
+.input-2 {
+  border: none;
+  outline: none;
+  width: 75vw;
+}
+
 .font {
   font-size: 11px;
 }
 
 ::placeholder {
   font-size: 11px;
+}
+
+.link-4 {
+  color: black;
+  font-size: 25px;
+}
+.link-4:hover {
+  color: #2266cc;
 }
 
 .link-2 {
@@ -124,6 +138,34 @@
 
 .bg-icon {
   background-color: #333;
+}
+
+.fs-normal {
+  font-size: 15px;
+}
+
+.bi-facebook:hover {
+  color: blue;
+}
+
+.bi-twitter:hover {
+  color: aqua;
+}
+
+.bi-instagram:hover {
+  color: purple;
+}
+
+.bi-youtube:hover {
+  color: red;
+}
+
+.bi-pinterest:hover {
+  color: orange;
+}
+
+.pay {
+  height: 1.4rem;
 }
 
 /*# sourceMappingURL=h-header.css.map */

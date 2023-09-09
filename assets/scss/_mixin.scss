@@ -19,3 +19,7 @@
         color: $link;
     }
 }
+@mixin input{
+    border: none;
+    outline: none; 
+}
